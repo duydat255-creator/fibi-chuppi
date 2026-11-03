@@ -18,7 +18,7 @@
           "label": "Phoebe Chupi (Original)"
         },
         {
-          "file": "sounds/phoebe-chupi-short.mp3",
+          "file": "sounds/phoebe-chupi-hello.mp3",
           "label": "Phoebe Chupi Greeting"
         }
       ]
@@ -30,20 +30,20 @@
           "label": "Chupi Acknowledge"
         },
         {
-          "file": "sounds/phoebe-chupi-cue.mp3",
-          "label": "Chupi Cue"
+          "file": "sounds/phoebe-chupi-ack.mp3",
+          "label": "Chupi Got It"
         }
       ]
     },
     "task.complete": {
       "sounds": [
         {
-          "file": "sounds/phoebe-chupi.mp3",
+          "file": "sounds/phoebe-chupi-done.mp3",
           "label": "Phoebe Chupi Complete"
         },
         {
           "file": "sounds/fibi-chubi.mp3",
-          "label": "Fibi Chubi Celebration"
+          "label": "Fibi Chuppi Celebration"
         }
       ]
     },
@@ -54,8 +54,8 @@
           "label": "Phoebe Chupi Oops"
         },
         {
-          "file": "sounds/phoebe-chupi-cue.mp3",
-          "label": "Chupi Alert"
+          "file": "sounds/phoebe-chupi-oops.mp3",
+          "label": "Chupi Error Alert"
         }
       ]
     },
@@ -66,7 +66,7 @@
           "label": "Chupi Waiting"
         },
         {
-          "file": "sounds/phoebe-chupi-short.mp3",
+          "file": "sounds/phoebe-chupi-wait.mp3",
           "label": "Phoebe Needs Input"
         }
       ]
@@ -74,16 +74,24 @@
     "resource.limit": {
       "sounds": [
         {
-          "file": "sounds/phoebechubby.mp3",
+          "file": "sounds/phoebe-chupi-limit.mp3",
           "label": "Chupi Limit Hit"
+        },
+        {
+          "file": "sounds/phoebechubby.mp3",
+          "label": "Phoebe Quota Reached"
         }
       ]
     },
     "user.spam": {
       "sounds": [
         {
-          "file": "sounds/phoebe-chupi-cue.mp3",
+          "file": "sounds/phoebe-chupi-spam.mp3",
           "label": "Rapid Chupi"
+        },
+        {
+          "file": "sounds/phoebe-chupi-cue.mp3",
+          "label": "Chupi Slow Down"
         }
       ]
     }
