@@ -1,0 +1,91 @@
+{
+  "cesp_version": "1.0",
+  "name": "fibi-chuppi",
+  "display_name": "Fibi Chuppi (Phoebe Chupi)",
+  "version": "1.0.0",
+  "description": "Adorable high-pitched Phoebe Chupi (Fibi Chuppi) cube noises from Wuthering Waves for coding events.",
+  "author": {
+    "name": "dat",
+    "github": "duydat255-creator"
+  },
+  "license": "CC-BY-NC-4.0",
+  "language": "en",
+  "categories": {
+    "session.start": {
+      "sounds": [
+        {
+          "file": "sounds/phoebe-chupi.mp3",
+          "label": "Phoebe Chupi (Original)"
+        },
+        {
+          "file": "sounds/phoebe-chupi-short.mp3",
+          "label": "Phoebe Chupi Greeting"
+        }
+      ]
+    },
+    "task.acknowledge": {
+      "sounds": [
+        {
+          "file": "sounds/phoebe-chupi-short.mp3",
+          "label": "Chupi Acknowledge"
+        },
+        {
+          "file": "sounds/phoebe-chupi-cue.mp3",
+          "label": "Chupi Cue"
+        }
+      ]
+    },
+    "task.complete": {
+      "sounds": [
+        {
+          "file": "sounds/phoebe-chupi.mp3",
+          "label": "Phoebe Chupi Complete"
+        },
+        {
+          "file": "sounds/fibi-chubi.mp3",
+          "label": "Fibi Chubi Celebration"
+        }
+      ]
+    },
+    "task.error": {
+      "sounds": [
+        {
+          "file": "sounds/phoebechubby.mp3",
+          "label": "Phoebe Chupi Oops"
+        },
+        {
+          "file": "sounds/phoebe-chupi-cue.mp3",
+          "label": "Chupi Alert"
+        }
+      ]
+    },
+    "input.required": {
+      "sounds": [
+        {
+          "file": "sounds/phoebe-chupi-cue.mp3",
+          "label": "Chupi Waiting"
+        },
+        {
+          "file": "sounds/phoebe-chupi-short.mp3",
+          "label": "Phoebe Needs Input"
+        }
+      ]
+    },
+    "resource.limit": {
+      "sounds": [
+        {
+          "file": "sounds/phoebechubby.mp3",
+          "label": "Chupi Limit Hit"
+        }
+      ]
+    },
+    "user.spam": {
+      "sounds": [
+        {
+          "file": "sounds/phoebe-chupi-cue.mp3",
+          "label": "Rapid Chupi"
+        }
+      ]
+    }
+  }
+}
